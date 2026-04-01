@@ -44,7 +44,7 @@ postgres=# CREATE DATABASE host_agent;
     * * * * * bash /path/to/linux_sql/host_agent/scripts/host_usage.sh localhost 5432 host_agent postgres password > /tmp/host_usage.log
 ```
 
-# Implemenation
+# Implementation
 This project uses bash scripts to track hardware and machine usage, and Docker to run the PostgreSQL database.
 In order to make sure all the data is tracked, the architecture dictates that one of the nodes in the cluster will host a Docker container that runs the PSQL database.
 This database stores two tables that manage the hardware specifications and hardware usage reports.
@@ -59,7 +59,6 @@ will send their usage reports over to the host through a cronjob.
 ![LCMA.drawio.png](assets/LCMA.drawio.png)
 
 ## Scripts
-Shell script description and usage (use markdown code block for script usage)
 - psql_docker.sh
   - Create a psql Docker container, start an existing container, or stop an existing container.
 ```bash
@@ -86,7 +85,6 @@ Shell script description and usage (use markdown code block for script usage)
 - To be implemented.
 
 ## Database Modeling
-Describe the schema of each table using markdown table syntax (do not put any sql code)
 - `host_info`
   | Field          | Description   |
   | :------------- | :------------- |
@@ -100,36 +98,35 @@ Describe the schema of each table using markdown table syntax (do not put any sq
   | **timestamp** | Timestamp of when this entry was made (YYYY-MM-DD HH:MM:SS) |
   | **total_mem** | The total RAM space on the VM in megabytes. |
 - `host_usage`
-| Field          | Description   |
-| :------------- | :------------- |
-| **timestamp** | Timestamp of when this entry was made (YYYY-MM-DD HH:MM:SS) |
-| **host_id** | `host_info`'s id identifier. |
-| **memory_free** | The total amount of unused RAM space on the VM in megabytes. |
-| **cpu_idle** | The percentage amount of time that the CPU is idling. |
-| **cpu_kernel** | The percentage of time that the CPU is processing kernel operations. |
-| **disk_io** | The total number of Disk Input and Output operations. |
-| **disk_available** | The total available disk space on the VM. |
+  | Field          | Description   |
+  | :------------- | :------------- |
+  | **timestamp** | Timestamp of when this entry was made (YYYY-MM-DD HH:MM:SS) |
+  | **host_id** | `host_info`'s id identifier. |
+  | **memory_free** | The total amount of unused RAM space on the VM in megabytes. |
+  | **cpu_idle** | The percentage amount of time that the CPU is idling. |
+  | **cpu_kernel** | The percentage of time that the CPU is processing kernel operations. |
+  | **disk_io** | The total number of Disk Input and Output operations. |
+  | **disk_available** | The total available disk space on the VM. |
 
 
 # Test
-How did you test your bash scripts DDL? What was the result?
-The testing was done with:
+The testing for the bash script DDL was done with:
 ```bash
 bash -x /path/to/linux_sql/scripts/[script_name].sh [arguments]
 ```
 This command allows me to view the execution of my script step-by-step, and lets me see the output of every line.
 If the final output does not match my expectations, or I see an error message or a non-zero exit code somewhere in the run, it lets me know there is something I need to address.
 For instance, there was a point where the insert command was giving an error.
-The command allowed revealed it was related to the text values through bash. After some research, it became apparent that
+The command revealed it was related to the text values through bash. After some research, it became apparent that
 the base replacement did not convert the variable values to a string literal, and made PSQL look for a variable instead,
 leading to a failed insert, and the script ending with an error code 1.
 
 # Deployment
-The code is saved onto the Github, and all nodes are required to pull the repo.
+The code is saved onto GitHub, and all nodes are required to pull the repo.
 All nodes must run `host_info.sh` and have the crontab set up for `host_usage.sh`.
 The node hosting the database must run `psql_docker.sh` to create and start the Docker container to run the database and `ddl.sql` to create the tables to store the incoming data.
 
 # Improvements
-- Automatically create the database and give drop/clean-up functionality
+- Automatically create the database and give drop/cleanup functionality
 - Make a script to update the cronjob with a given frequency
 - Save snapshots of the database and potentially allow rollback.
