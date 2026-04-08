@@ -1,10 +1,3 @@
-# Introduction
-
-# SQL Queries
-
-###### Table Setup (DDL)
-
-```sql
 --- Connect to the database.
 \c cd
 
@@ -26,7 +19,7 @@ CREATE TABLE IF NOT EXISTS PUBLIC.members (
 --- Create the bookings table
 CREATE TABLE IF NOT EXISTS PUBLIC.bookings (
 	bookid INT NOT NULL,
-	facid INT NOT NULL,
+	facid INT,
 	memid INT,
 	starttime timestamp,
 	slots INT,
@@ -46,19 +39,3 @@ CREATE TABLE IF NOT EXISTS PUBLIC.facilities (
 	monthlymaintentence NUMBERIC NOT NULL,
 	CONSTRAINT facilities_pk PRIMARY KEY (facid)
 );
-```
-
-###### Question 1: Show all members 
-
-```sql
-SELECT *
-FROM cd.members
-```
-
-###### Question 2: Lorem ipsum...
-
-```sql
-SELECT blah blah 
-```
-
-
