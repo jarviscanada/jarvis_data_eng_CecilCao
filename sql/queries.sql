@@ -94,3 +94,110 @@ WHERE
 ORDER BY start;
 
 --- Question 14:
+SELECT
+	members.firstname AS memfname,
+	members.surname AS memsname, 
+	recmem.firstname AS recfname, 
+	recmem.surname AS recsname
+FROM cd.members
+LEFT OUTER JOIN cd.members recmem
+ON members.recommendedby = recmem.memid
+ORDER BY members.surname, members.firstname;
+
+--- Question 15: Output a list of all members who have recommended another member? 
+--- Ensure that there are no duplicates in the list, and that results are ordered by (surname, firstname).
+SELECT DISTINCT recmem.firstname, recmem.surname
+FROM cd.members
+INNER JOIN cd.members recmem
+ON members.recommendedby = recmem.memid
+ORDER BY recmem.surname, recmem.firstname;
+
+--- Question 16: 
+SELECT DISTINCT
+	members.firstname || ' ' || members.surname AS member, 
+	(SELECT recmem.firstname || ' ' || recmem.surname AS recommender
+	 FROM cd.members recmem
+	 WHERE recmem.memid = members.recommendedby
+	) AS recommender
+FROM cd.members
+ORDER BY member;
+
+--- Aggregation
+--- Question 17:
+SELECT recommendedby, COUNT(*)
+FROM cd.members
+WHERE recommendedby IS NOT NULL
+GROUP BY recommendedby
+ORDER BY recommendedby;
+
+--- Question 18:
+SELECT facid, SUM(slots) as "Total Slots"
+FROM cd.bookings
+GROUP BY facid
+ORDER BY facid;
+
+--- Question 19:
+SELECT facid, SUM(slots) AS "Total Slots"
+FROM cd.bookings
+WHERE 
+	starttime >= '2012-09-01' AND
+	starttime < '2012-10-01'
+GROUP BY facid
+ORDER BY "Total Slots";
+
+--- Question 20:
+SELECT facid, EXTRACT(MONTH FROM starttime) AS month, SUM(slots) AS "Total Slots"
+FROM cd.bookings
+WHERE
+	starttime >= '2012-01-01' AND
+	starttime < '2013-01-01'
+GROUP BY facid, month
+ORDER BY facid, month;
+
+--- Question 21:
+SELECT COUNT(DISTINCT memid)
+FROM cd.bookings;
+
+--- Question 22:
+SELECT surname, firstname, members.memid, MIN(starttime)
+FROM cd.members
+INNER JOIN cd.bookings
+ON members.memid = bookings.memid
+WHERE starttime >= '2012-09-01'
+GROUP BY members.memid
+ORDER BY members.memid;
+
+--- Question 23:
+SELECT COUNT(memid) OVER(), firstname, surname
+FROM cd.members
+ORDER BY joindate;
+
+--- Question 24:
+SELECT COUNT(*) OVER(ORDER BY joindate) AS row_number, firstname, surname
+FROM cd.members;
+
+--- Question 25:
+SELECT facid, total
+FROM (
+  SELECT facid, SUM(slots) AS total, RANK() OVER(ORDER BY SUM(slots) DESC) AS rank
+  FROM cd.bookings
+  GROUP BY facid
+) subquery
+WHERE rank = 1;
+
+--- STRINGS
+--- Question 26:
+SELECT surname || ', ' || firstname AS name
+FROM cd.members;
+
+--- Question 27: Find telephone entries with format '(000)'
+SELECT memid, telephone
+FROM cd.members
+WHERE
+	telephone SIMILAR TO '%[()]%'
+	
+--- Question 28:
+SELECT LEFT(surname, 1) AS letter, COUNT(*)
+FROM cd.members
+GROUP BY letter
+ORDER BY letter;
