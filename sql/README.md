@@ -1,4 +1,8 @@
 # Introduction
+This project explores a test dataset for a resort, focusing on the managing the bookings and memberships of the customers that visit.
+The resort has multiple facilities that visitors can book usage for, and this project looks to set up the data into a PostgreSQL database for management and queries.
+This project uses PostgreSQL for the relational database model and Docker to run the database in the background. It uses SQL scripts to set up and manipulate the entries into the database.
+Finally, Git is used to track and manage the changes made when adding new queries to this project.
 
 # SQL Queries
 
@@ -10,62 +14,62 @@
 
 --- Create tbe members table
 CREATE TABLE IF NOT EXISTS PUBLIC.members (
-	memid INT NOT NULL,
-	surname VARCHAR(200) NOT NULL,
-	firstname VARCHAR(200) NOT NULL,
-	address VARCHAR(300) NOT NULL,
-	zipcode INT NOT NULL,
-	telephone VARCHAR(20) NOT NULL,
-	recommendedby INT,
-	joindate timestamp NOT NULL,
-	CONSTRAINT members_pk PRIMARY KEY (memid),
-	CONSTRAINT fk_members_recommendedby FOREIGN KEY (memid)
-		REFERENCES cd.members(memid) ON DELETE SET NULL
+    memid INT NOT NULL,
+    surname VARCHAR(200) NOT NULL,
+    firstname VARCHAR(200) NOT NULL,
+    address VARCHAR(300) NOT NULL,
+    zipcode INT NOT NULL,
+    telephone VARCHAR(20) NOT NULL,
+    recommendedby INT,
+    joindate timestamp NOT NULL,
+    CONSTRAINT members_pk PRIMARY KEY (memid),
+    CONSTRAINT fk_members_recommendedby FOREIGN KEY (memid)
+    REFERENCES cd.members(memid) ON DELETE SET NULL
 );
 
 --- Create the bookings table
 CREATE TABLE IF NOT EXISTS PUBLIC.bookings (
-	bookid INT NOT NULL,
-	facid INT NOT NULL,
-	memid INT,
-	starttime timestamp,
-	slots INT,
-	CONSTRAINT bookings_pk PRIMARY KEY (bookid),
-	CONSTRAINT fk_bookings_facilities FOREIGN KEY (facid) REFERENCES cd.facilities(facid),
-	CONSTRAINT fk_bookings_members FOREIGN KEY (memid) REFERENCES cd.members(memid)
+    bookid INT NOT NULL,
+    facid INT NOT NULL,
+    memid INT,
+    starttime timestamp,
+    slots INT,
+    CONSTRAINT bookings_pk PRIMARY KEY (bookid),
+    CONSTRAINT fk_bookings_facilities FOREIGN KEY (facid) REFERENCES cd.facilities(facid),
+    CONSTRAINT fk_bookings_members FOREIGN KEY (memid) REFERENCES cd.members(memid)
 );
 
 
 --- Create the facilities table
 CREATE TABLE IF NOT EXISTS PUBLIC.facilities (
-	facid INT NOT NULL,
-	name VARCHAR(100) NOT NULL,
-	membercost NUMERIC NOT NULL,
-	guestcost NUMERIC NOT NULL,
-	initialoutlay NUMERIC NOT NULL,
-	monthlymaintentence NUMBERIC NOT NULL,
-	CONSTRAINT facilities_pk PRIMARY KEY (facid)
+    facid INT NOT NULL,
+    name VARCHAR(100) NOT NULL,
+    membercost NUMERIC NOT NULL,
+    guestcost NUMERIC NOT NULL,
+    initialoutlay NUMERIC NOT NULL,
+    monthlymaintentence NUMBERIC NOT NULL,
+    CONSTRAINT facilities_pk PRIMARY KEY (facid)
 );
 ```
 
-###### Question 1: Show all members
+###### Questions
 ```sql
 --- Modifying Data
 --- Question 1: The club is adding a new facility - a spa. We need to add it into the facilities table.
 --- The values are: facid: 9, Name: 'Spa', membercost: 20, guestcost: 30, initialoutlay: 100000, monthlymaintenance: 800.
 INSERT INTO cd.facilities
-	(facid, name, membercost, guestcost, initialoutlay, monthlymaintenance)
+    (facid, name, membercost, guestcost, initialoutlay, monthlymaintenance)
 VALUES
-	(9, 'Spa', 20, 30, 100000, 800);
+    (9, 'Spa', 20, 30, 100000, 800);
 
 
 --- Question 2: Let's try adding the spa to the facilities table again. 
 --- This time, though, we want to automatically generate the value for the next facid, rather than specifying it as a constant.
 --- Add entry: Name: 'Spa', membercost: 20, guestcost: 30, initialoutlay: 100000, monthlymaintenance: 800.
 INSERT INTO cd.facilities
-	(facid, name, membercost, guestcost, initialoutlay, monthlymaintenance)
+    (facid, name, membercost, guestcost, initialoutlay, monthlymaintenance)
 VALUES
-	((SELECT MAX(facid) FROM cd.facilities) + 1, 'Spa', 20, 30, 100000, 800);
+    ((SELECT MAX(facid) FROM cd.facilities) + 1, 'Spa', 20, 30, 100000, 800);
 
 --- Question 3: Update Tennis Court 2's initialoutlay
 UPDATE cd.facilities
@@ -75,12 +79,12 @@ WHERE name = 'Tennis Court 2';
 --- Question 4: Up the cost of the 2nd tennis court so that it's 10% more than the 1st. Don't use constant values.
 UPDATE cd.facilities
 SET (membercost, guestcost) = (
-  SELECT membercost * 1.1, guestcost * 1.1
-  FROM cd.facilities 
-  WHERE name = 'Tennis Court 1'
+    SELECT membercost * 1.1, guestcost * 1.1
+    FROM cd.facilities
+    WHERE name = 'Tennis Court 1'
 )
 WHERE
-	name = 'Tennis Court 2';
+    name = 'Tennis Court 2';
 
 --- Question 5: Delete all entries from bookings
 DELETE FROM cd.bookings;
@@ -96,8 +100,8 @@ WHERE memid = 37;
 SELECT facid, name, membercost, monthlymaintenance
 FROM cd.facilities
 WHERE
-	membercost < monthlymaintenance / 50.0 AND
-	membercost > 0;
+    membercost < monthlymaintenance / 50.0 AND
+    membercost > 0;
 
 
 --- Question 8:
@@ -110,7 +114,7 @@ WHERE name LIKE '%Tennis%';
 SELECT *
 FROM cd.facilities
 WHERE
-	facid IN (1, 5);
+    facid IN (1, 5);
 
 --- Question 10:
 SELECT memid, surname, firstname, joindate
@@ -128,49 +132,49 @@ FROM cd.facilities;
 --- Question 12:
 SELECT starttime
 FROM cd.bookings
-INNER JOIN cd.members
-ON bookings.memid = members.memid
-WHERE 
-	members.firstname = 'David' AND
-	members.surname = 'Farrell';
+         INNER JOIN cd.members
+                    ON bookings.memid = members.memid
+WHERE
+    members.firstname = 'David' AND
+    members.surname = 'Farrell';
 
 --- Question 13:
 SELECT starttime AS start, name
 FROM cd.bookings
-INNER JOIN cd.facilities
-ON bookings.facid = facilities.facid
+         INNER JOIN cd.facilities
+                    ON bookings.facid = facilities.facid
 WHERE
-	starttime >= '2012-09-21' AND
-	starttime < '2012-09-22' AND
-	name LIKE '%Tennis Court%'
+    starttime >= '2012-09-21' AND
+    starttime < '2012-09-22' AND
+    name LIKE '%Tennis Court%'
 ORDER BY start;
 
 --- Question 14:
 SELECT
-	members.firstname AS memfname,
-	members.surname AS memsname, 
-	recmem.firstname AS recfname, 
-	recmem.surname AS recsname
+    members.firstname AS memfname,
+    members.surname AS memsname,
+    recmem.firstname AS recfname,
+    recmem.surname AS recsname
 FROM cd.members
-LEFT OUTER JOIN cd.members recmem
-ON members.recommendedby = recmem.memid
+         LEFT OUTER JOIN cd.members recmem
+                         ON members.recommendedby = recmem.memid
 ORDER BY members.surname, members.firstname;
 
 --- Question 15: Output a list of all members who have recommended another member? 
 --- Ensure that there are no duplicates in the list, and that results are ordered by (surname, firstname).
 SELECT DISTINCT recmem.firstname, recmem.surname
 FROM cd.members
-INNER JOIN cd.members recmem
-ON members.recommendedby = recmem.memid
+         INNER JOIN cd.members recmem
+                    ON members.recommendedby = recmem.memid
 ORDER BY recmem.surname, recmem.firstname;
 
 --- Question 16: 
 SELECT DISTINCT
-	members.firstname || ' ' || members.surname AS member, 
-	(SELECT recmem.firstname || ' ' || recmem.surname AS recommender
-	 FROM cd.members recmem
-	 WHERE recmem.memid = members.recommendedby
-	) AS recommender
+    members.firstname || ' ' || members.surname AS member,
+    (SELECT recmem.firstname || ' ' || recmem.surname AS recommender
+     FROM cd.members recmem
+     WHERE recmem.memid = members.recommendedby
+    ) AS recommender
 FROM cd.members
 ORDER BY member;
 
@@ -191,9 +195,9 @@ ORDER BY facid;
 --- Question 19:
 SELECT facid, SUM(slots) AS "Total Slots"
 FROM cd.bookings
-WHERE 
-	starttime >= '2012-09-01' AND
-	starttime < '2012-10-01'
+WHERE
+    starttime >= '2012-09-01' AND
+    starttime < '2012-10-01'
 GROUP BY facid
 ORDER BY "Total Slots";
 
@@ -201,8 +205,8 @@ ORDER BY "Total Slots";
 SELECT facid, EXTRACT(MONTH FROM starttime) AS month, SUM(slots) AS "Total Slots"
 FROM cd.bookings
 WHERE
-	starttime >= '2012-01-01' AND
-	starttime < '2013-01-01'
+    starttime >= '2012-01-01' AND
+    starttime < '2013-01-01'
 GROUP BY facid, month
 ORDER BY facid, month;
 
@@ -214,7 +218,7 @@ FROM cd.bookings;
 SELECT surname, firstname, members.memid, MIN(starttime)
 FROM cd.members
 INNER JOIN cd.bookings
-ON members.memid = bookings.memid
+    ON members.memid = bookings.memid
 WHERE starttime >= '2012-09-01'
 GROUP BY members.memid
 ORDER BY members.memid;
@@ -231,9 +235,9 @@ FROM cd.members;
 --- Question 25:
 SELECT facid, total
 FROM (
-  SELECT facid, SUM(slots) AS total, RANK() OVER(ORDER BY SUM(slots) DESC) AS rank
-  FROM cd.bookings
-  GROUP BY facid
+     SELECT facid, SUM(slots) AS total, RANK() OVER(ORDER BY SUM(slots) DESC) AS rank
+     FROM cd.bookings
+     GROUP BY facid
 ) subquery
 WHERE rank = 1;
 
@@ -245,9 +249,8 @@ FROM cd.members;
 --- Question 27: Find telephone entries with format '(000)'
 SELECT memid, telephone
 FROM cd.members
-WHERE
-	telephone SIMILAR TO '%[()]%'
-	
+WHERE telephone SIMILAR TO '%[()]%';
+
 --- Question 28:
 SELECT LEFT(surname, 1) AS letter, COUNT(*)
 FROM cd.members
