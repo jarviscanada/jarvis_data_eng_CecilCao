@@ -1,0 +1,115 @@
+# Preferred name (Characters only)
+name: "Cecil Cao"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_CecilCao
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary: "A few words to describe me: curious, sociable, and hardworking. I am a software developer who enjoy figuring out solutions that match the client's needs and tries to give a little more on top. As a recent graduate of the University of Toronto, I still find myself continuing to better myself everyday, and take great initiative to work on new ideas and projects. I have 3+ years developing professionally and enjoy managing and organizing projects, while also skilled in full-stack and application development. In my free time, I enjoy to practice digital art, take walks, and participate in the indie game development community."
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - C#
+    - Java
+    - Python
+    - Linux/Bash
+    - RDBMS/SQL
+    - Agile/Scrum
+    - Git
+    - Typescript
+  # At least 5 skills
+  competent:
+    - C++
+    - Unity
+    - OpenXR
+    - AWS Cloud Computing
+    - Docker
+  # At least 5 skills
+  familiar:
+    - GraphQL
+    - Golang
+    - Blender
+    - IsaacSim/IsaacLab
+    - Waterfall
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Cluster Monitor"
+    git_url: "/linux_sql"
+    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Developed a PSQL database hardware usage tracker using Bash scripts and Docker to manage a run the service in a closed network environment. Identified key security risks and discussed ways to minimize SQL Injection attacks."
+  - name: "SQL Database"
+    git_url: "/sql"
+    description: "Investigated a resort dataset containing information about the resort's facilities, its booking reservations, and its members. Compiled the data into a relational PSQL database running on Docker and converted high-level questions into SQL queries."
+  - name: "Core Java Apps"
+    git_url: "/core_java"
+    description: ""
+  - name: "Springboot App"
+    git_url: "/springboot"
+    description: ""
+  - name: "Python Data Analytics"
+    git_url: "/python_data_anlytics"
+    description: ""
+  - name: "Hadoop"
+    git_url: "/hadoop"
+    description: ""
+  - name: "Spark"
+    git_url: "/spark"
+    description: ""
+  - name: "Cloud/DevOps"
+    git_url: "/cloud_devops"
+    description: ""
+
+# List of personal or academic projects
+# Feel free to add more projects
+highlighted_projects:
+    #project name
+  - name: "Into the Dataswarm (Beta)"
+    #URL is optional
+    git_url: "https://pokemonball34.itch.io/into-the-dataswarm"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Organized and led a team of programmers to create an indie turn-based puzzle game. Conducted playtesting sessions to discover pain points and bright points, with a post-playtest interview to refine user insights."
+
+#List of professional experience
+#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Software Developer"
+    company: "Jarvis"
+    duration: "2026-present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Developed a PSQL database hardware usage tracker using Bash scripts and Docker to manage a run the service in a closed network environment. Identified key security risks and discussed ways to minimize SQL Injection attacks."
+  - title: "Research Assistant"
+    company: "University of Toronto"
+    duration: "2024-2025"
+    description: "Investigated ways to make a large-scale GraphDB RDF graph database more user-friendly with ChatGPT on a RAG framework. Deployed and maintained a Linux cloud service with Python scripts and Docker."
+  - title: "Junior Software Engineer"
+    company: "Alida Inc."
+    duration: "2022-2023"
+    description: "Implemented UX designs onto a customer data analytics website using React, Typescript, and a Golang relational database. Organized sprint retros for the team after every bi-weekly Agile sprint to identify key roadblocks."
+#List of education
+education: 
+  - school_name: "University of Toronto"
+    duration: "2018-2025"
+    degree: "Bachelor of Computer Science"
+    department: "Arts and Science"
+    awards_achievements:
+
+#optional section
+others:
+  #category
+  - title: "Certificates"
+    #list of items
+    bullets:
+      - "N/A"
+  - title: "Awards"
+    bullets:
+      - "N/A"
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Creative Writing"
+      - "Indie Game Development"
