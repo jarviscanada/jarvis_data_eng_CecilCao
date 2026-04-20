@@ -4,9 +4,9 @@ A few words to describe me: curious, sociable, and hardworking. I am a software 
 
 ## Skills
 
-**Proficient:** C#, Java, Python, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git, Typescript
+**Proficient:** C#, Java, Python, Linux/Bash, Agile/Scrum, Git, Typescript
 
-**Competent:** C++, Unity, OpenXR, AWS Cloud Computing, Docker
+**Competent:** C++, RDBMS/SQL, Unity, OpenXR, AWS Cloud Computing, Docker
 
 **Familiar:** GraphQL, Golang, Blender, IsaacSim/IsaacLab, Waterfall
 
@@ -18,18 +18,6 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_CecilCao](
 **Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_CecilCao/tree/master/linux_sql)]: Developed a PSQL database hardware usage tracker using Bash scripts and Docker to manage a run the service in a closed network environment. Identified key security risks and discussed ways to minimize SQL Injection attacks.
 
 **SQL Database** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_CecilCao/tree/master/sql)]: Investigated a resort dataset containing information about the resort's facilities, its booking reservations, and its members. Compiled the data into a relational PSQL database running on Docker and converted high-level questions into SQL queries.
-
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_CecilCao/tree/master/core_java)]: Not Started
-
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_CecilCao/tree/master/springboot)]: Not Started
-
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_CecilCao/tree/master/python_data_anlytics)]: Not Started
-
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_CecilCao/tree/master/hadoop)]: Not Started
-
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_CecilCao/tree/master/spark)]: Not Started
-
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_CecilCao/tree/master/cloud_devops)]: Not Started
 
 
 ## Highlighted Projects
@@ -50,7 +38,6 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_CecilCao](
 
 
 ## Miscellaneous
-- N/A
-- N/A
 - Creative Writing
 - Indie Game Development
+- Private/Volunteer Tutor

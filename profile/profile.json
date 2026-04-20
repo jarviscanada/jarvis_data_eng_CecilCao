@@ -26,56 +26,15 @@
       "description": "Investigated a resort dataset containing information about the resort's facilities, its booking reservations, and its members. Compiled the data into a relational PSQL database running on Docker and converted high-level questions into SQL queries.",
       "git_url": "/sql",
       "name": "SQL Database"
-    },
-    {
-      "description": "",
-      "git_url": "/core_java",
-      "name": "Core Java Apps"
-    },
-    {
-      "description": "",
-      "git_url": "/springboot",
-      "name": "Springboot App"
-    },
-    {
-      "description": "",
-      "git_url": "/python_data_anlytics",
-      "name": "Python Data Analytics"
-    },
-    {
-      "description": "",
-      "git_url": "/hadoop",
-      "name": "Hadoop"
-    },
-    {
-      "description": "",
-      "git_url": "/spark",
-      "name": "Spark"
-    },
-    {
-      "description": "",
-      "git_url": "/cloud_devops",
-      "name": "Cloud/DevOps"
     }
   ],
   "name": "Cecil Cao",
   "others": [
     {
       "bullets": [
-        "N/A"
-      ],
-      "title": "Certificates"
-    },
-    {
-      "bullets": [
-        "N/A"
-      ],
-      "title": "Awards"
-    },
-    {
-      "bullets": [
         "Creative Writing",
-        "Indie Game Development"
+        "Indie Game Development",
+        "Private/Volunteer Tutor"
       ],
       "title": "Activities/Hobbies"
     }
@@ -103,6 +62,7 @@
   "skills": {
     "competent": [
       "C++",
+      "RDBMS/SQL",
       "Unity",
       "OpenXR",
       "AWS Cloud Computing",
@@ -120,7 +80,6 @@
       "Java",
       "Python",
       "Linux/Bash",
-      "RDBMS/SQL",
       "Agile/Scrum",
       "Git",
       "Typescript"
