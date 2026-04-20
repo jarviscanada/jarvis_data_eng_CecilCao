@@ -26,56 +26,15 @@
       "description": "Investigated a resort dataset containing information about the resort's facilities, its booking reservations, and its members. Compiled the data into a relational PSQL database running on Docker and converted high-level questions into SQL queries.",
       "git_url": "/sql",
       "name": "SQL Database"
-    },
-    {
-      "description": "",
-      "git_url": "/core_java",
-      "name": "Core Java Apps"
-    },
-    {
-      "description": "",
-      "git_url": "/springboot",
-      "name": "Springboot App"
-    },
-    {
-      "description": "",
-      "git_url": "/python_data_anlytics",
-      "name": "Python Data Analytics"
-    },
-    {
-      "description": "",
-      "git_url": "/hadoop",
-      "name": "Hadoop"
-    },
-    {
-      "description": "",
-      "git_url": "/spark",
-      "name": "Spark"
-    },
-    {
-      "description": "",
-      "git_url": "/cloud_devops",
-      "name": "Cloud/DevOps"
     }
   ],
   "name": "Cecil Cao",
   "others": [
     {
       "bullets": [
-        "N/A"
-      ],
-      "title": "Certificates"
-    },
-    {
-      "bullets": [
-        "N/A"
-      ],
-      "title": "Awards"
-    },
-    {
-      "bullets": [
         "Creative Writing",
-        "Indie Game Development"
+        "Indie Game Development",
+        "Private/Volunteer Tutor"
       ],
       "title": "Activities/Hobbies"
     }
@@ -103,6 +62,7 @@
   "skills": {
     "competent": [
       "C++",
+      "RDBMS/SQL",
       "Unity",
       "OpenXR",
       "AWS Cloud Computing",
@@ -120,11 +80,10 @@
       "Java",
       "Python",
       "Linux/Bash",
-      "RDBMS/SQL",
       "Agile/Scrum",
       "Git",
       "Typescript"
     ]
   },
-  "summary": "A few words to describe me: curious, sociable, and hardworking. I am a software developer who enjoy figuring out solutions that match the client's needs and tries to give a little more on top. As a recent graduate of the University of Toronto, I still find myself continuing to better myself everyday, and take great initiative to work on new ideas and projects. I have 3+ years developing professionally and enjoy managing and organizing projects, while also skilled in full-stack and application development. In my free time, I enjoy to practice digital art, take walks, and participate in the indie game development community."
+  "summary": "Hi there! My name's Cecil and I'm a business systems analyst passionate about coming up with solutions to problems. I'm curious and always learning new things through work and always tries to give 101% in his work. As a recent graduate of the University of Toronto, I still find myself continuing to better myself everyday, and take great initiative to work on new ideas and projects. I have 3+ years developing professionally and enjoy managing and organizing projects, while also skilled in full-stack and application development. In my free time, I enjoy practicing digital art, taking walks around GTA parks, and participating in the indie game dev community."
 }
