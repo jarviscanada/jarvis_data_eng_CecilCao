@@ -5,7 +5,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_CecilCao
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: "A few words to describe me: curious, sociable, and hardworking. I am a software developer who enjoy figuring out solutions that match the client's needs and tries to give a little more on top. As a recent graduate of the University of Toronto, I still find myself continuing to better myself everyday, and take great initiative to work on new ideas and projects. I have 3+ years developing professionally and enjoy managing and organizing projects, while also skilled in full-stack and application development. In my free time, I enjoy to practice digital art, take walks, and participate in the indie game development community."
+summary: "Hi there! My name's Cecil and I'm a business systems analyst passionate about coming up with solutions to problems. I'm curious and always learning new things through work and always tries to give 101% in his work. As a recent graduate of the University of Toronto, I still find myself continuing to better myself everyday, and take great initiative to work on new ideas and projects. I have 3+ years developing professionally and enjoy managing and organizing projects, while also skilled in full-stack and application development. In my free time, I enjoy practicing digital art, taking walks around GTA parks, and participating in the indie game dev community."
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
@@ -15,13 +15,13 @@ skills:
     - Java
     - Python
     - Linux/Bash
-    - RDBMS/SQL
     - Agile/Scrum
     - Git
     - Typescript
   # At least 5 skills
   competent:
     - C++
+    - RDBMS/SQL
     - Unity
     - OpenXR
     - AWS Cloud Computing
@@ -44,24 +44,24 @@ jarvis_projects:
   - name: "SQL Database"
     git_url: "/sql"
     description: "Investigated a resort dataset containing information about the resort's facilities, its booking reservations, and its members. Compiled the data into a relational PSQL database running on Docker and converted high-level questions into SQL queries."
-  - name: "Core Java Apps"
-    git_url: "/core_java"
-    description: ""
-  - name: "Springboot App"
-    git_url: "/springboot"
-    description: ""
-  - name: "Python Data Analytics"
-    git_url: "/python_data_anlytics"
-    description: ""
-  - name: "Hadoop"
-    git_url: "/hadoop"
-    description: ""
-  - name: "Spark"
-    git_url: "/spark"
-    description: ""
-  - name: "Cloud/DevOps"
-    git_url: "/cloud_devops"
-    description: ""
+#  - name: "Core Java Apps"
+#    git_url: "/core_java"
+#    description: ""
+#  - name: "Springboot App"
+#    git_url: "/springboot"
+#    description: ""
+#  - name: "Python Data Analytics"
+#    git_url: "/python_data_anlytics"
+#    description: ""
+#  - name: "Hadoop"
+#    git_url: "/hadoop"
+#    description: ""
+#  - name: "Spark"
+#    git_url: "/spark"
+#    description: ""
+#  - name: "Cloud/DevOps"
+#    git_url: "/cloud_devops"
+#    description: ""
 
 # List of personal or academic projects
 # Feel free to add more projects
@@ -102,14 +102,15 @@ education:
 #optional section
 others:
   #category
-  - title: "Certificates"
-    #list of items
-    bullets:
-      - "N/A"
-  - title: "Awards"
-    bullets:
-      - "N/A"
+#  - title: "Certificates"
+#    #list of items
+#    bullets:
+##      - "N/A"
+#  - title: "Awards"
+#    bullets:
+##      - "N/A"
   - title: "Activities/Hobbies"
     bullets:
       - "Creative Writing"
       - "Indie Game Development"
+      - "Private/Volunteer Tutor"
