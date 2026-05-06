@@ -46,9 +46,9 @@ jarvis_projects:
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: "Developed a PSQL database hardware usage tracker using Bash scripts and Docker to manage and run the service in a closed network environment. Identified key security risks and reported on the potential risk of SQL Injection attacks."
-  - name: "SQL Database"
-    git_url: "/sql"
-    description: "Investigated a resort dataset containing information about the resort's facilities, reservations, and members. Compiled the data into a relational PSQL database running on Docker and converted high-level questions into SQL queries."
+#  - name: "SQL Database"
+#    git_url: "/sql"
+#    description: "Investigated a resort dataset containing information about the resort's facilities, reservations, and members. Compiled the data into a relational PSQL database running on Docker and converted high-level questions into SQL queries."
 #  - name: "Core Java Apps"
 #    git_url: "/core_java"
 #    description: ""
@@ -96,7 +96,7 @@ professional_experience:
   - title: "Junior Software Engineer"
     company: "Alida Inc."
     duration: "2022-2023"
-    description: "Organized Agile sprint retros with Jira to identify key blockers, and tracked work progress on a burn-down chart. Implemented UX designs on a customer data analytics website using React, Typescript, Golang and PSQL full-stack."
+    description: "Organized Agile sprint retros with Jira to identify key blockers, and tracked work progress on a burn-down chart. Implemented a full-stack website with React, Typescript, Golang and PSQL."
 #List of education
 education: 
   - school_name: "University of Toronto"

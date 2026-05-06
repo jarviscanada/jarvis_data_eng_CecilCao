@@ -17,8 +17,6 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_CecilCao](
 
 **Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_CecilCao/tree/master/linux_sql)]: Developed a PSQL database hardware usage tracker using Bash scripts and Docker to manage and run the service in a closed network environment. Identified key security risks and reported on the potential risk of SQL Injection attacks.
 
-**SQL Database** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_CecilCao/tree/master/sql)]: Investigated a resort dataset containing information about the resort's facilities, reservations, and members. Compiled the data into a relational PSQL database running on Docker and converted high-level questions into SQL queries.
-
 
 ## Highlighted Projects
 **Into the Dataswarm (Beta)** [[GitHub](https://pokemonball34.itch.io/into-the-dataswarm)]: Managed the Trello kanban board and Git repository, running weekly Agile sprints to break down key milestones into actionable tickets. Consulted with playtesters and the game's creative director in order to realize and refine stakeholder goals.
@@ -32,7 +30,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_CecilCao](
 
 **Research Assistant, University of Toronto (2025-present)**: Managed a Trello board and broke down an MVP into its key components to achieve MVP. Communicate with the primary stakeholder on a monthly basis to align project milestones with stakeholder goals.
 
-**Junior Software Engineer, Alida Inc. (2022-2023)**: Organized Agile sprint retros with Jira to identify key blockers, and tracked work progress on a burn-down chart. Implemented UX designs on a customer data analytics website using React, Typescript, Golang and PSQL full-stack.
+**Junior Software Engineer, Alida Inc. (2022-2023)**: Organized Agile sprint retros with Jira to identify key blockers, and tracked work progress on a burn-down chart. Implemented a full-stack website with React, Typescript, Golang and PSQL.
 
 
 ## Education

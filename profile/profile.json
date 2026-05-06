@@ -25,11 +25,6 @@
       "description": "Developed a PSQL database hardware usage tracker using Bash scripts and Docker to manage and run the service in a closed network environment. Identified key security risks and reported on the potential risk of SQL Injection attacks.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
-    },
-    {
-      "description": "Investigated a resort dataset containing information about the resort's facilities, reservations, and members. Compiled the data into a relational PSQL database running on Docker and converted high-level questions into SQL queries.",
-      "git_url": "/sql",
-      "name": "SQL Database"
     }
   ],
   "name": "Cecil Cao",
@@ -58,7 +53,7 @@
     },
     {
       "company": "Alida Inc.",
-      "description": "Organized Agile sprint retros with Jira to identify key blockers, and tracked work progress on a burn-down chart. Implemented UX designs on a customer data analytics website using React, Typescript, Golang and PSQL full-stack.",
+      "description": "Organized Agile sprint retros with Jira to identify key blockers, and tracked work progress on a burn-down chart. Implemented a full-stack website with React, Typescript, Golang and PSQL.",
       "duration": "2022-2023",
       "title": "Junior Software Engineer"
     }
