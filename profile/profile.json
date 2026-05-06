@@ -16,18 +16,18 @@
       "name": "Into the Dataswarm (Beta)"
     },
     {
-      "description": "Researched COVID-19's impact on Toronto's job market through the city's open datasets, converting CSV files into dataframes with Pandas and storing them into a PSQL relational database. Culminated investigation reports into a strategy meeting with the professor, using the number of companies that opened/closed during the pandemic to determine which job sector was heavily impacted, and found that technology sectors generally grew amidst the turbulent time period.",
+      "description": "Researched COVID-19's impact on Toronto's job market through the city's open datasets, converting CSV files into dataframes with Pandas and storing them in a PSQL relational database. Culminated investigation reports into a strategy meeting with the professor, using the number of companies that opened/closed during the pandemic to determine which job sector was heavily impacted, and found that technology sectors generally grew amidst the turbulent time period.",
       "name": "Toronto Job Market Database"
     }
   ],
   "jarvis_projects": [
     {
-      "description": "Developed a PSQL database hardware usage tracker using Bash scripts and Docker to manage a run the service in a closed network environment. Identified key security risks and reported on the potential risk of SQL Injection attacks.",
+      "description": "Developed a PSQL database hardware usage tracker using Bash scripts and Docker to manage and run the service in a closed network environment. Identified key security risks and reported on the potential risk of SQL Injection attacks.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
     },
     {
-      "description": "Investigated a resort dataset containing information about the resort's facilities, its booking reservations, and its members. Compiled the data into a relational PSQL database running on Docker and converted high-level questions into SQL queries.",
+      "description": "Investigated a resort dataset containing information about the resort's facilities, reservations, and members. Compiled the data into a relational PSQL database running on Docker and converted high-level questions into SQL queries.",
       "git_url": "/sql",
       "name": "SQL Database"
     }
@@ -58,7 +58,7 @@
     },
     {
       "company": "Alida Inc.",
-      "description": "Implemented UX designs onto a customer data analytics website using React, Typescript, and a Golang relational database. Organized sprint retros for the team after every bi-weekly Agile sprint to identify key roadblocks.",
+      "description": "Implemented UX designs on a customer data analytics website using React, Typescript, and a Golang relational database. Organized sprint retros with the team for the team after every bi-weekly Agile sprint to identify key roadblocks.",
       "duration": "2022-2023",
       "title": "Junior Software Engineer"
     }
@@ -89,5 +89,5 @@
       "Typescript"
     ]
   },
-  "summary": "A scholar at heart, and always driven to turn ideas into action. As a Business Systems Analyst at Jarvis, my goal is to provide clear insights to my clients and actionable ideas to help them in their problems and assuage their concerns. I take initiative in leading many projects, using Trello to manage and organize large milestones into actionable tickets for my team, and frequently use Agile to keep our development cycles tight and progress-oriented. I recently graduated from the University of Toronto and have participated as a programming lead for research projects and RA positions to investigate new technologies that can help my professors. I also have 3+ years developing professionally and enjoy managing and organizing projects, while also skilled in full-stack and application development. I always seek to learn new things both at work and at home and I always try to stay ahead of the rest of the team to help where it's needed. In my free time, I enjoy practicing digital art, taking walks around GTA parks, and participating in the indie game dev community."
+  "summary": "Driven to turn ideas into action, I am a Business Systems Analyst at Jarvis focused on delivering clear insights and actionable solutions to clients. I lead initiatives, manage projects using Trello, and drive progress with Agile methods. I am a CS undergraduate from the University of Toronto, with proven experience as a programming lead in research projects and RA positions investigating new technologies. With 3+ years of professional development, I manage and organize projects and am skilled in full-stack and application development. I am always learning and proactively supporting team needs. In my free time, I practice digital art, walk in GTA parks, and engage with the indie game dev community."
 }
