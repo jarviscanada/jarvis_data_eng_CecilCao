@@ -1,6 +1,6 @@
 # Cecil Cao . Jarvis Consulting
 
-Hi there! My name's Cecil and I'm a business systems analyst passionate about coming up with solutions to problems. I'm curious and always learning new things through work and always tries to give 101% in his work. As a recent graduate of the University of Toronto, I still find myself continuing to better myself everyday, and take great initiative to work on new ideas and projects. I have 3+ years developing professionally and enjoy managing and organizing projects, while also skilled in full-stack and application development. In my free time, I enjoy practicing digital art, taking walks around GTA parks, and participating in the indie game dev community.
+A scholar at heart, and always driven to turn ideas into action. As a Business Systems Analyst at Jarvis, my goal is to provide clear insights to my clients and actionable ideas to help them in their problems and assuage their concerns. I take initiative in leading many projects, using Trello to manage and organize large milestones into actionable tickets for my team, and frequently use Agile to keep our development cycles tight and progress-oriented. I recently graduated from the University of Toronto and have participated as a programming lead for research projects and RA positions to investigate new technologies that can help my professors. I also have 3+ years developing professionally and enjoy managing and organizing projects, while also skilled in full-stack and application development.I always seek to learn new things both at work and at home and I always try to stay ahead of the rest of the team to help where it's needed.  In my free time, I enjoy practicing digital art, taking walks around GTA parks, and participating in the indie game dev community.
 
 ## Skills
 
@@ -21,12 +21,14 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_CecilCao](
 
 
 ## Highlighted Projects
-**Into the Dataswarm (Beta)** [[GitHub](https://pokemonball34.itch.io/into-the-dataswarm)]: Organized and led a team of programmers to create an indie turn-based puzzle game. Conducted playtesting sessions to discover pain points and bright points, with a post-playtest interview to refine user insights.
+**Into the Dataswarm (Beta)** [[GitHub](https://pokemonball34.itch.io/into-the-dataswarm)]: Spearheaded the project as a project manager and programming lead, turning a proof-of-concept game into a fully realized turn-based puzzle game with Trello, Git and Agile Methodologies. Conducted playtesting sessions to discover pain points and bright points, with a post-playtest interview to refine user insights, while making on-the-fly changes on the Unity/C# framework.
+
+**Toronto Job Market Database**: Researched COVID-19’s impact on Toronto’s job market through the city's open datasets, converting CSV files into dataframes with Pandas and storing them into a PSQL relational database. Culminating investigation reports into a strategy meeting with the professor, using the number of companies that opened/closed during the pandemic to determine which job sector was heavily impacted, and found that technology sectors generally grew amidst the turbulent time period.
 
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2026-present)**: Developed a PSQL database hardware usage tracker using Bash scripts and Docker to manage a run the service in a closed network environment. Identified key security risks and discussed ways to minimize SQL Injection attacks.
+**Software Developer, Jarvis (2026-present)**: Interpolate PSQL data from our clients using an ETL pipeline to identify customer loyalty and spending, in order to determine risk and growth factors associated with their business strategy. Used Bash and Docker to run and manage closed network environments that could process and run the database, and Python (Pandas and Pyplot) to clean and visualize the data to present to our customers.
 
 **Research Assistant, University of Toronto (2024-2025)**: Investigated ways to make a large-scale GraphDB RDF graph database more user-friendly with ChatGPT on a RAG framework. Deployed and maintained a Linux cloud service with Python scripts and Docker.
 
@@ -38,6 +40,6 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_CecilCao](
 
 
 ## Miscellaneous
-- Creative Writing
-- Indie Game Development
-- Private/Volunteer Tutor
+- I enjoy hosting creative writing sessions and writing flash fiction pieces for my tabletop RPG campaigns.
+- I participate in the IGDA in Toronto, and am working on an indie game!
+- I also work as a private and volunteer tutor on the weekends, teaching K12 students English and Math as my primary subjects.
