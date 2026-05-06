@@ -1,6 +1,6 @@
 # Cecil Cao . Jarvis Consulting
 
-Driven to turn ideas into action, I am a Business Systems Analyst at Jarvis focused on delivering clear insights and actionable solutions to clients. I lead initiatives, manage projects using Trello, and drive progress with Agile methods. I am a CS undergraduate from the University of Toronto, with proven experience as a programming lead in research projects and RA positions investigating new technologies. With 3+ years of professional development, I manage and organize projects and am skilled in full-stack and application development. I am always learning and proactively supporting team needs. In my free time, I practice digital art, walk in GTA parks, and engage with the indie game dev community.
+I am a Business Systems Analyst at Jarvis, focused on delivering clear insights and actionable solutions to clients. I drive progress using Agile methodologies, and I am most proud of my organizational skills and attentiveness to my team's needs and abilities. I am a CS undergraduate from the University of Toronto, with proven experience as a programming lead in research projects and RA positions investigating new technologies. With 3+ years of professional development, I manage and organize projects and am skilled in full-stack and application development. I am always learning and proactively seek to support my teams. In my free time, I practice digital art, walk in GTA parks, and actively contribute to Toronto's indie game dev community.
 
 ## Skills
 
@@ -41,5 +41,5 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_CecilCao](
 
 ## Miscellaneous
 - I enjoy hosting creative writing sessions and writing flash fiction pieces for my tabletop RPG campaigns.
-- I participate in the IGDA in Toronto, and am working on an indie game!
+- I participate in the International Game Developers Association meetups in Toronto, and am working on an indie game!
 - I also work as a private and volunteer tutor on the weekends, teaching K12 students English and Math as my primary subjects.
