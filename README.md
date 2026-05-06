@@ -42,4 +42,4 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_CecilCao](
 ## Miscellaneous
 - I enjoy hosting creative writing sessions and writing flash fiction pieces for my tabletop RPG campaigns.
 - I participate in the International Game Developers Association meetups in Toronto, and am working on an indie game!
-- I also work as a private and volunteer tutor on the weekends, teaching K12 students English and Math as my primary subjects.
+- I also work and volunteer as a tutor on the weekends, teaching K12 students English and Math as my primary subjects.
