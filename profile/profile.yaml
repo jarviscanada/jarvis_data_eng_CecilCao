@@ -5,29 +5,34 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_CecilCao
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: "I am a Business Systems Analyst at Jarvis, focused on delivering clear insights and actionable solutions to clients. I drive progress using Agile methodologies, and I am most proud of my organizational skills and attentiveness to my team's needs and abilities. I am a CS undergraduate from the University of Toronto, with proven experience as a programming lead in research projects and RA positions investigating new technologies. With 3+ years of professional development, I manage and organize projects and am skilled in full-stack and application development. I am always learning and proactively seek to support my teams. In my free time, I practice digital art, walk in GTA parks, and actively contribute to Toronto's indie game dev community."
+summary: "I am a Project Manager at Jarvis, focused on delivering clear insights and actionable solutions to clients. I drive progress using Agile methodologies, and I am most proud of my organizational skills and attentiveness to my team's needs and abilities. I have proven experience working as a programming lead in research projects and RA positions investigating new technologies, with a CS background at the University of Toronto. With 3+ years of professional development, I frequently manage and organize projects, while keeping stakeholders and product goals consistent and achievable. I am always learning and proactively seek to support my teams, and use my experiences as a developer to set realistic goals. In my free time, I practice digital art and stroll in nearby parks."
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
   # At least 5 skills
   proficient:
+    - Agile Methodology
+    - Trello
+    - Stakeholder Management
+    - Project/Task Scheduling
+    - Git
     - C#
     - Java
     - Python
     - Linux/Bash
-    - Agile/Scrum
-    - Git
     - Typescript
   # At least 5 skills
   competent:
+    - Risk Assessment
     - C++
     - RDBMS/SQL
-    - Unity
-    - OpenXR
     - AWS Cloud Computing
     - Docker
+    - OpenXR
   # At least 5 skills
   familiar:
+    - Notion
+    - Jira
     - GraphQL
     - Golang
     - Blender
@@ -71,29 +76,27 @@ highlighted_projects:
     #URL is optional
     git_url: "https://pokemonball34.itch.io/into-the-dataswarm"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Spearheaded the project as a project manager and programming lead, turning a proof-of-concept game into a fully realized turn-based puzzle game with Trello, Git and Agile Methodologies. Conducted playtesting sessions to discover pain points and bright points, with a post-playtest interview to refine user insights, while making on-the-fly changes on the Unity/C# framework."
+    description: "Managed the Trello kanban board and Git repository, running weekly Agile sprints to break down key milestones into actionable tickets. Consulted with playtesters and the game's creative director in order to realize and refine stakeholder goals."
   - name: "Toronto Job Market Database"
-    description: "Researched COVID-19's impact on Toronto's job market through the city's open datasets, converting CSV files into dataframes with Pandas and storing them in a PSQL relational database. Culminated investigation reports into a strategy meeting with the professor, using the number of companies that opened/closed during the pandemic to determine which job sector was heavily impacted, and found that technology sectors generally grew amidst the turbulent time period."
-
+    description: "Discovered COVID-19's impact on the Toronto job market using the open datasets and determined job sectors affected most by the pandemic. Utilized Python (Pandas and Pyplot) to set up an ETL pipeline onto a PSQL database."
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
 professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
-  - title: "Software Developer"
+  - title: "Project Manager"
     company: "Jarvis"
     duration: "2026-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Interpolate PSQL data from our clients using an ETL pipeline to identify customer loyalty and spending, in order to determine risk and growth factors associated with their business strategy. Used Bash and Docker to run and manage closed network environments that could process and run the database, and Python (Pandas and Pyplot) to clean and visualize the data to present to our customers."
+    description: "Monitor weekly sprint progress and resolve roadblocks amongst the team. Manage a Notion Kanban board to visualize progress during daily standups."
   - title: "Research Assistant"
     company: "University of Toronto"
-    duration: "2024-2025"
-    description: "Investigated ways to make a large-scale GraphDB RDF graph database more user-friendly with ChatGPT on a RAG framework. Deployed and maintained a Linux cloud service with Python scripts and Docker."
+    duration: "2025-present"
+    description: "Managed a Trello board and broke down an MVP into its key components to achieve MVP. Communicate with the primary stakeholder on a monthly basis to align project milestones with stakeholder goals."
   - title: "Junior Software Engineer"
     company: "Alida Inc."
     duration: "2022-2023"
-    description: "Implemented UX designs on a customer data analytics website using React, Typescript, and a Golang relational database. Organized sprint retros with the team for the team after every bi-weekly Agile sprint to identify key roadblocks."
-
+    description: "Organized Agile sprint retros with Jira to identify key blockers, and tracked work progress on a burn-down chart. Implemented UX designs on a customer data analytics website using React, Typescript, Golang and PSQL full-stack."
 #List of education
 education: 
   - school_name: "University of Toronto"
@@ -114,6 +117,6 @@ others:
 ##      - "N/A"
   - title: "Activities/Hobbies"
     bullets:
-      - "I enjoy hosting creative writing sessions and writing flash fiction pieces for my tabletop RPG campaigns."
-      - "I participate in the International Game Developers Association meetups in Toronto, and am working on an indie game!"
-      - "I also work and volunteer as a tutor on the weekends, teaching K12 students English and Math as my primary subjects."
+      - "Hosts creative writing sessions among peers and writes flash fiction pieces for Role-playing Games."
+      - "An active member of the International Game Developers Association, and developing an indie game."
+      - "Tutors language arts and mathematics to K12 students on the weekends."
