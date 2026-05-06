@@ -1,6 +1,6 @@
 # Cecil Cao . Jarvis Consulting
 
-A scholar at heart, and always driven to turn ideas into action. As a Business Systems Analyst at Jarvis, my goal is to provide clear insights to my clients and actionable ideas to help them in their problems and assuage their concerns. I take initiative in leading many projects, using Trello to manage and organize large milestones into actionable tickets for my team, and frequently use Agile to keep our development cycles tight and progress-oriented. I recently graduated from the University of Toronto and have participated as a programming lead for research projects and RA positions to investigate new technologies that can help my professors. I also have 3+ years developing professionally and enjoy managing and organizing projects, while also skilled in full-stack and application development.I always seek to learn new things both at work and at home and I always try to stay ahead of the rest of the team to help where it's needed.  In my free time, I enjoy practicing digital art, taking walks around GTA parks, and participating in the indie game dev community.
+A scholar at heart, and always driven to turn ideas into action. As a Business Systems Analyst at Jarvis, my goal is to provide clear insights to my clients and actionable ideas to help them in their problems and assuage their concerns. I take initiative in leading many projects, using Trello to manage and organize large milestones into actionable tickets for my team, and frequently use Agile to keep our development cycles tight and progress-oriented. I recently graduated from the University of Toronto and have participated as a programming lead for research projects and RA positions to investigate new technologies that can help my professors. I also have 3+ years developing professionally and enjoy managing and organizing projects, while also skilled in full-stack and application development.I always seek to learn new things both at work and at home and I always try to stay ahead of the rest of the team to help where it's needed. In my free time, I enjoy practicing digital art, taking walks around GTA parks, and participating in the indie game dev community.
 
 ## Skills
 
@@ -15,7 +15,7 @@ A scholar at heart, and always driven to turn ideas into action. As a Business S
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_CecilCao](https://github.com/jarviscanada/jarvis_data_eng_CecilCao)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_CecilCao/tree/master/linux_sql)]: Developed a PSQL database hardware usage tracker using Bash scripts and Docker to manage a run the service in a closed network environment. Identified key security risks and discussed ways to minimize SQL Injection attacks.
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_CecilCao/tree/master/linux_sql)]: Developed a PSQL database hardware usage tracker using Bash scripts and Docker to manage a run the service in a closed network environment. Identified key security risks and reported on the potential risk of SQL Injection attacks.
 
 **SQL Database** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_CecilCao/tree/master/sql)]: Investigated a resort dataset containing information about the resort's facilities, its booking reservations, and its members. Compiled the data into a relational PSQL database running on Docker and converted high-level questions into SQL queries.
 
@@ -23,7 +23,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_CecilCao](
 ## Highlighted Projects
 **Into the Dataswarm (Beta)** [[GitHub](https://pokemonball34.itch.io/into-the-dataswarm)]: Spearheaded the project as a project manager and programming lead, turning a proof-of-concept game into a fully realized turn-based puzzle game with Trello, Git and Agile Methodologies. Conducted playtesting sessions to discover pain points and bright points, with a post-playtest interview to refine user insights, while making on-the-fly changes on the Unity/C# framework.
 
-**Toronto Job Market Database**: Researched COVID-19’s impact on Toronto’s job market through the city's open datasets, converting CSV files into dataframes with Pandas and storing them into a PSQL relational database. Culminated investigation reports into a strategy meeting with the professor, using the number of companies that opened/closed during the pandemic to determine which job sector was heavily impacted, and found that technology sectors generally grew amidst the turbulent time period.
+**Toronto Job Market Database**: Researched COVID-19's impact on Toronto's job market through the city's open datasets, converting CSV files into dataframes with Pandas and storing them into a PSQL relational database. Culminated investigation reports into a strategy meeting with the professor, using the number of companies that opened/closed during the pandemic to determine which job sector was heavily impacted, and found that technology sectors generally grew amidst the turbulent time period.
 
 
 ## Professional Experiences
