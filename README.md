@@ -23,7 +23,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_CecilCao](
 ## Highlighted Projects
 **Into the Dataswarm (Beta)** [[GitHub](https://pokemonball34.itch.io/into-the-dataswarm)]: Spearheaded the project as a project manager and programming lead, turning a proof-of-concept game into a fully realized turn-based puzzle game with Trello, Git and Agile Methodologies. Conducted playtesting sessions to discover pain points and bright points, with a post-playtest interview to refine user insights, while making on-the-fly changes on the Unity/C# framework.
 
-**Toronto Job Market Database**: Researched COVID-19’s impact on Toronto’s job market through the city's open datasets, converting CSV files into dataframes with Pandas and storing them into a PSQL relational database. Culminating investigation reports into a strategy meeting with the professor, using the number of companies that opened/closed during the pandemic to determine which job sector was heavily impacted, and found that technology sectors generally grew amidst the turbulent time period.
+**Toronto Job Market Database**: Researched COVID-19’s impact on Toronto’s job market through the city's open datasets, converting CSV files into dataframes with Pandas and storing them into a PSQL relational database. Culminated investigation reports into a strategy meeting with the professor, using the number of companies that opened/closed during the pandemic to determine which job sector was heavily impacted, and found that technology sectors generally grew amidst the turbulent time period.
 
 
 ## Professional Experiences
