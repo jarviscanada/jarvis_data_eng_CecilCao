@@ -11,7 +11,7 @@
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_CecilCao",
   "highlighted_projects": [
     {
-      "description": "Managed the Trello kanban board and Git repository, running weekly Agile sprints to break down key milestones into actionable tickets. Consulted with playtesters and the game's creative director in order to realize and refine stakeholder goals.",
+      "description": "Managed the Trello kanban board and Git repository, ran weekly Agile sprints to break down key milestones into actionable tickets, prioritized bug fixes and feature tickets each sprint. Consulted with playtesters and the game's creative director in order to realize and refine stakeholder goals.",
       "git_url": "https://pokemonball34.itch.io/into-the-dataswarm",
       "name": "Into the Dataswarm (Beta)"
     },
@@ -22,7 +22,7 @@
   ],
   "jarvis_projects": [
     {
-      "description": "Developed a PSQL database hardware usage tracker using Bash scripts and Docker to manage and run the service in a closed network environment. Identified key security risks and reported on the potential risk of SQL Injection attacks.",
+      "description": "Coordinated Docker setup and Bash scripting tasks across the team. Tracked progress using a simple Kanban board to ensure on-time delivery. Documented key security risks of the current architecture for future development.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
     }
@@ -41,13 +41,13 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Monitor weekly sprint progress and resolve roadblocks amongst the team. Manage a Notion Kanban board to visualize progress during daily standups.",
+      "description": "Working with key executives and stakeholders to manage sprints by keeping tasks organized in Notion. Writing validation scripts in Python to support the team's workflow. Providing updates and resolving daily blockers to maintain steady progress.",
       "duration": "2026-present",
       "title": "Project Manager"
     },
     {
       "company": "University of Toronto",
-      "description": "Managed a Trello board and broke down an MVP into its key components to achieve MVP. Communicate with the primary stakeholder on a monthly basis to align project milestones with stakeholder goals.",
+      "description": "Managing a Trello board and broke down the stakeholders' goals into its key components to achieve MVP. Communicating with the primary stakeholder on a monthly basis to align project milestones with stakeholder goals.",
       "duration": "2025-present",
       "title": "Research Assistant"
     },

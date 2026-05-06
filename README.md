@@ -15,20 +15,20 @@ I am a Project Manager at Jarvis, focused on delivering clear insights and actio
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_CecilCao](https://github.com/jarviscanada/jarvis_data_eng_CecilCao)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_CecilCao/tree/master/linux_sql)]: Developed a PSQL database hardware usage tracker using Bash scripts and Docker to manage and run the service in a closed network environment. Identified key security risks and reported on the potential risk of SQL Injection attacks.
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_CecilCao/tree/master/linux_sql)]: Coordinated Docker setup and Bash scripting tasks across the team. Tracked progress using a simple Kanban board to ensure on-time delivery. Documented key security risks of the current architecture for future development.
 
 
 ## Highlighted Projects
-**Into the Dataswarm (Beta)** [[GitHub](https://pokemonball34.itch.io/into-the-dataswarm)]: Managed the Trello kanban board and Git repository, running weekly Agile sprints to break down key milestones into actionable tickets. Consulted with playtesters and the game's creative director in order to realize and refine stakeholder goals.
+**Into the Dataswarm (Beta)** [[GitHub](https://pokemonball34.itch.io/into-the-dataswarm)]: Managed the Trello kanban board and Git repository, ran weekly Agile sprints to break down key milestones into actionable tickets, prioritized bug fixes and feature tickets each sprint. Consulted with playtesters and the game's creative director in order to realize and refine stakeholder goals.
 
 **Toronto Job Market Database**: Discovered COVID-19's impact on the Toronto job market using the open datasets and determined job sectors affected most by the pandemic. Utilized Python (Pandas and Pyplot) to set up an ETL pipeline onto a PSQL database.
 
 
 ## Professional Experiences
 
-**Project Manager, Jarvis (2026-present)**: Monitor weekly sprint progress and resolve roadblocks amongst the team. Manage a Notion Kanban board to visualize progress during daily standups.
+**Project Manager, Jarvis (2026-present)**: Working with key executives and stakeholders to manage sprints by keeping tasks organized in Notion. Writing validation scripts in Python to support the team's workflow. Providing updates and resolving daily blockers to maintain steady progress.
 
-**Research Assistant, University of Toronto (2025-present)**: Managed a Trello board and broke down an MVP into its key components to achieve MVP. Communicate with the primary stakeholder on a monthly basis to align project milestones with stakeholder goals.
+**Research Assistant, University of Toronto (2025-present)**: Managing a Trello board and broke down the stakeholders' goals into its key components to achieve MVP. Communicating with the primary stakeholder on a monthly basis to align project milestones with stakeholder goals.
 
 **Junior Software Engineer, Alida Inc. (2022-2023)**: Organized Agile sprint retros with Jira to identify key blockers, and tracked work progress on a burn-down chart. Implemented a full-stack website with React, Typescript, Golang and PSQL.
 
