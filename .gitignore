@@ -158,3 +158,7 @@ notebook/templates/*.html
 
 # Temporary files used for testing
 tmp/
+
+# Python Data Analytics
+python_data_analytics/.*
+python_data_analytics/practice
