@@ -1,48 +1,36 @@
 # Cecil Cao . Jarvis Consulting
 
-A few words to describe me: curious, sociable, and hardworking. I am a software developer who enjoy figuring out solutions that match the client's needs and tries to give a little more on top. As a recent graduate of the University of Toronto, I still find myself continuing to better myself everyday, and take great initiative to work on new ideas and projects. I have 3+ years developing professionally and enjoy managing and organizing projects, while also skilled in full-stack and application development. In my free time, I enjoy to practice digital art, take walks, and participate in the indie game development community.
+I am a Project Manager at Jarvis, focused on delivering clear insights and actionable solutions to clients. I drive progress using Agile methodologies, and I am most proud of my organizational skills and attentiveness to my team's needs and abilities. I have proven experience working as a programming lead in research projects and RA positions investigating new technologies, with a CS background at the University of Toronto. With 3+ years of professional development, I frequently manage and organize projects, while keeping stakeholders and product goals consistent and achievable. I am always learning and proactively seek to support my teams, and use my experiences as a developer to set realistic goals.
 
 ## Skills
 
-**Proficient:** C#, Java, Python, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git, Typescript
+**Proficient:** Agile Methodology, Trello, Stakeholder Management, Project/Task Scheduling, Git, C#, Java, Python, Linux/Bash, Typescript
 
-**Competent:** C++, Unity, OpenXR, AWS Cloud Computing, Docker
+**Competent:** Risk Assessment, C++, RDBMS/SQL, AWS Cloud Computing, Docker, OpenXR
 
-**Familiar:** GraphQL, Golang, Blender, IsaacSim/IsaacLab, Waterfall
+**Familiar:** Notion, Jira, GraphQL, Golang, Blender, IsaacSim/IsaacLab, Waterfall
 
 ## Jarvis Projects
 
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_CecilCao](https://github.com/jarviscanada/jarvis_data_eng_CecilCao)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_CecilCao/tree/master/linux_sql)]: Developed a PSQL database hardware usage tracker using Bash scripts and Docker to manage a run the service in a closed network environment. Identified key security risks and discussed ways to minimize SQL Injection attacks.
-
-**SQL Database** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_CecilCao/tree/master/sql)]: Investigated a resort dataset containing information about the resort's facilities, its booking reservations, and its members. Compiled the data into a relational PSQL database running on Docker and converted high-level questions into SQL queries.
-
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_CecilCao/tree/master/core_java)]: Not Started
-
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_CecilCao/tree/master/springboot)]: Not Started
-
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_CecilCao/tree/master/python_data_anlytics)]: Not Started
-
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_CecilCao/tree/master/hadoop)]: Not Started
-
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_CecilCao/tree/master/spark)]: Not Started
-
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_CecilCao/tree/master/cloud_devops)]: Not Started
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_CecilCao/tree/master/linux_sql)]: Coordinated Docker setup and Bash scripting tasks across the team. Tracked progress using a simple Kanban board to ensure on-time delivery. Documented key security risks of the current architecture for future development.
 
 
 ## Highlighted Projects
-**Into the Dataswarm (Beta)** [[GitHub](https://pokemonball34.itch.io/into-the-dataswarm)]: Organized and led a team of programmers to create an indie turn-based puzzle game. Conducted playtesting sessions to discover pain points and bright points, with a post-playtest interview to refine user insights.
+**Into the Dataswarm (Beta)** [[GitHub](https://pokemonball34.itch.io/into-the-dataswarm)]: Managed the Trello kanban board and Git repository, ran weekly Agile sprints to break down key milestones into actionable tickets, prioritized bug fixes and feature tickets each sprint. Consulted with playtesters and the game's creative director in order to realize and refine stakeholder goals.
+
+**Toronto Job Market Database**: Discovered COVID-19's impact on the Toronto job market using the open datasets and determined job sectors affected most by the pandemic. Utilized Python (Pandas and Pyplot) to set up an ETL pipeline onto a PSQL database.
 
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2026-present)**: Developed a PSQL database hardware usage tracker using Bash scripts and Docker to manage a run the service in a closed network environment. Identified key security risks and discussed ways to minimize SQL Injection attacks.
+**Project Manager, Jarvis (2026-present)**: Working with key executives and stakeholders to manage sprints by keeping tasks organized in Notion. Writing validation scripts in Python to support the team's workflow. Providing updates and resolving daily blockers to maintain steady progress.
 
-**Research Assistant, University of Toronto (2024-2025)**: Investigated ways to make a large-scale GraphDB RDF graph database more user-friendly with ChatGPT on a RAG framework. Deployed and maintained a Linux cloud service with Python scripts and Docker.
+**Research Assistant, University of Toronto (2025-present)**: Managing a Trello board and broke down the stakeholders' goals into its key components to achieve MVP. Communicating with the primary stakeholder on a monthly basis to align project milestones with stakeholder goals.
 
-**Junior Software Engineer, Alida Inc. (2022-2023)**: Implemented UX designs onto a customer data analytics website using React, Typescript, and a Golang relational database. Organized sprint retros for the team after every bi-weekly Agile sprint to identify key roadblocks.
+**Junior Software Engineer, Alida Inc. (2022-2023)**: Organized Agile sprint retros with Jira to identify key blockers, and tracked work progress on a burn-down chart. Implemented a full-stack website with React, Typescript, Golang and PSQL.
 
 
 ## Education
@@ -50,7 +38,6 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_CecilCao](
 
 
 ## Miscellaneous
-- N/A
-- N/A
-- Creative Writing
-- Indie Game Development
+- Hosts creative writing sessions among peers and writes flash fiction pieces for Role-playing Games.
+- An active member of the International Game Developers Association, and developing an indie game.
+- Tutors language arts and mathematics to K12 students on the weekends.

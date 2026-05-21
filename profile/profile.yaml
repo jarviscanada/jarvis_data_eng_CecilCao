@@ -5,29 +5,34 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_CecilCao
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: "A few words to describe me: curious, sociable, and hardworking. I am a software developer who enjoy figuring out solutions that match the client's needs and tries to give a little more on top. As a recent graduate of the University of Toronto, I still find myself continuing to better myself everyday, and take great initiative to work on new ideas and projects. I have 3+ years developing professionally and enjoy managing and organizing projects, while also skilled in full-stack and application development. In my free time, I enjoy to practice digital art, take walks, and participate in the indie game development community."
+summary: "I am a Project Manager at Jarvis, focused on delivering clear insights and actionable solutions to clients. I drive progress using Agile methodologies, and I am most proud of my organizational skills and attentiveness to my team's needs and abilities. I have proven experience working as a programming lead in research projects and RA positions investigating new technologies, with a CS background at the University of Toronto. With 3+ years of professional development, I frequently manage and organize projects, while keeping stakeholders and product goals consistent and achievable. I am always learning and proactively seek to support my teams, and use my experiences as a developer to set realistic goals."
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
   # At least 5 skills
   proficient:
+    - Agile Methodology
+    - Trello
+    - Stakeholder Management
+    - Project/Task Scheduling
+    - Git
     - C#
     - Java
     - Python
     - Linux/Bash
-    - RDBMS/SQL
-    - Agile/Scrum
-    - Git
     - Typescript
   # At least 5 skills
   competent:
+    - Risk Assessment
     - C++
-    - Unity
-    - OpenXR
+    - RDBMS/SQL
     - AWS Cloud Computing
     - Docker
+    - OpenXR
   # At least 5 skills
   familiar:
+    - Notion
+    - Jira
     - GraphQL
     - Golang
     - Blender
@@ -40,28 +45,28 @@ jarvis_projects:
     git_url: "/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Developed a PSQL database hardware usage tracker using Bash scripts and Docker to manage a run the service in a closed network environment. Identified key security risks and discussed ways to minimize SQL Injection attacks."
-  - name: "SQL Database"
-    git_url: "/sql"
-    description: "Investigated a resort dataset containing information about the resort's facilities, its booking reservations, and its members. Compiled the data into a relational PSQL database running on Docker and converted high-level questions into SQL queries."
-  - name: "Core Java Apps"
-    git_url: "/core_java"
-    description: ""
-  - name: "Springboot App"
-    git_url: "/springboot"
-    description: ""
-  - name: "Python Data Analytics"
-    git_url: "/python_data_anlytics"
-    description: ""
-  - name: "Hadoop"
-    git_url: "/hadoop"
-    description: ""
-  - name: "Spark"
-    git_url: "/spark"
-    description: ""
-  - name: "Cloud/DevOps"
-    git_url: "/cloud_devops"
-    description: ""
+    description: "Coordinated Docker setup and Bash scripting tasks across the team. Tracked progress using a simple Kanban board to ensure on-time delivery. Documented key security risks of the current architecture for future development."
+#  - name: "SQL Database"
+#    git_url: "/sql"
+#    description: "Investigated a resort dataset containing information about the resort's facilities, reservations, and members. Compiled the data into a relational PSQL database running on Docker and converted high-level questions into SQL queries."
+#  - name: "Core Java Apps"
+#    git_url: "/core_java"
+#    description: ""
+#  - name: "Springboot App"
+#    git_url: "/springboot"
+#    description: ""
+#  - name: "Python Data Analytics"
+#    git_url: "/python_data_anlytics"
+#    description: ""
+#  - name: "Hadoop"
+#    git_url: "/hadoop"
+#    description: ""
+#  - name: "Spark"
+#    git_url: "/spark"
+#    description: ""
+#  - name: "Cloud/DevOps"
+#    git_url: "/cloud_devops"
+#    description: ""
 
 # List of personal or academic projects
 # Feel free to add more projects
@@ -71,26 +76,27 @@ highlighted_projects:
     #URL is optional
     git_url: "https://pokemonball34.itch.io/into-the-dataswarm"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Organized and led a team of programmers to create an indie turn-based puzzle game. Conducted playtesting sessions to discover pain points and bright points, with a post-playtest interview to refine user insights."
-
+    description: "Managed the Trello kanban board and Git repository, ran weekly Agile sprints to break down key milestones into actionable tickets, prioritized bug fixes and feature tickets each sprint. Consulted with playtesters and the game's creative director in order to realize and refine stakeholder goals."
+  - name: "Toronto Job Market Database"
+    description: "Discovered COVID-19's impact on the Toronto job market using the open datasets and determined job sectors affected most by the pandemic. Utilized Python (Pandas and Pyplot) to set up an ETL pipeline onto a PSQL database."
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
 professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
-  - title: "Software Developer"
+  - title: "Project Manager"
     company: "Jarvis"
     duration: "2026-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Developed a PSQL database hardware usage tracker using Bash scripts and Docker to manage a run the service in a closed network environment. Identified key security risks and discussed ways to minimize SQL Injection attacks."
+    description: "Working with key executives and stakeholders to manage sprints by keeping tasks organized in Notion. Writing validation scripts in Python to support the team's workflow. Providing updates and resolving daily blockers to maintain steady progress."
   - title: "Research Assistant"
     company: "University of Toronto"
-    duration: "2024-2025"
-    description: "Investigated ways to make a large-scale GraphDB RDF graph database more user-friendly with ChatGPT on a RAG framework. Deployed and maintained a Linux cloud service with Python scripts and Docker."
+    duration: "2025-present"
+    description: "Managing a Trello board and broke down the stakeholders' goals into its key components to achieve MVP. Communicating with the primary stakeholder on a monthly basis to align project milestones with stakeholder goals."
   - title: "Junior Software Engineer"
     company: "Alida Inc."
     duration: "2022-2023"
-    description: "Implemented UX designs onto a customer data analytics website using React, Typescript, and a Golang relational database. Organized sprint retros for the team after every bi-weekly Agile sprint to identify key roadblocks."
+    description: "Organized Agile sprint retros with Jira to identify key blockers, and tracked work progress on a burn-down chart. Implemented a full-stack website with React, Typescript, Golang and PSQL."
 #List of education
 education: 
   - school_name: "University of Toronto"
@@ -102,14 +108,15 @@ education:
 #optional section
 others:
   #category
-  - title: "Certificates"
-    #list of items
-    bullets:
-      - "N/A"
-  - title: "Awards"
-    bullets:
-      - "N/A"
+#  - title: "Certificates"
+#    #list of items
+#    bullets:
+##      - "N/A"
+#  - title: "Awards"
+#    bullets:
+##      - "N/A"
   - title: "Activities/Hobbies"
     bullets:
-      - "Creative Writing"
-      - "Indie Game Development"
+      - "Hosts creative writing sessions among peers and writes flash fiction pieces for Role-playing Games."
+      - "An active member of the International Game Developers Association, and developing an indie game."
+      - "Tutors language arts and mathematics to K12 students on the weekends."
