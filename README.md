@@ -17,6 +17,10 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_CecilCao](
 
 **Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_CecilCao/tree/master/linux_sql)]: Coordinated Docker setup and Bash scripting tasks across the team. Tracked progress using a simple Kanban board to ensure on-time delivery. Documented key security risks of the current architecture for future development.
 
+**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_CecilCao/tree/master/python_data_anlytics)]: Analyzed a sanitized dataset from the London Gift Shop with PostgreSQL and Jupyter, and presented insights on their types of customers, as well as their geographic outreach to increase revenue growth.
+
+**BSA Fundamentals** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_CecilCao/tree/master/bsa_fundamentals)]: Drafted a software requirement document outlining the hardware, software, and development constraints and 8-month scope to develop a robust market order trading app for the Bank of Jarvis' online service products.
+
 
 ## Highlighted Projects
 **Into the Dataswarm (Beta)** [[GitHub](https://pokemonball34.itch.io/into-the-dataswarm)]: Managed the Trello kanban board and Git repository, ran weekly Agile sprints to break down key milestones into actionable tickets, prioritized bug fixes and feature tickets each sprint. Consulted with playtesters and the game's creative director in order to realize and refine stakeholder goals.
