@@ -35,6 +35,11 @@
       "description": "Drafted a software requirement document outlining the hardware, software, and development constraints and 8-month scope to develop a robust market order trading app for the Bank of Jarvis' online service products.",
       "git_url": "/bsa_fundamentals",
       "name": "BSA Fundamentals"
+    },
+    {
+      "description": "Presented a business solution to a managing director and the team for an automated dashboard in order to minimize human error during the document drafting process. Drafted a business requirements document to outline the requirements, constraints, and timeline by an elicitation with the managing director, as well as, the rest of the team for clarification on requirements and to manage the needs of everyone on the team.",
+      "git_url": "/bsa_rbc",
+      "name": "BSA Elicitation Project"
     }
   ],
   "name": "Cecil Cao",
