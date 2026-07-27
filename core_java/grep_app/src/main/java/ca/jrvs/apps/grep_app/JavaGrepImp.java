@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 import org.slf4j.Logger;
@@ -22,12 +23,12 @@ public class JavaGrepImp implements JavaGrep {
   @Override
   public void process() throws IOException {
     try {
-      List<File> files = listFiles(rootPath);
-      List<String> lines = new ArrayList<>();
+      List<File> files = listFiles(getRootPath());
+      List<String> grepLines = new ArrayList<>();
       for (File file : files) {
-        lines.addAll(readLines(file));
+        readLines(file).stream().filter(this::containsPattern).forEach(grepLines::add);
       }
-      writeToFile(lines);
+      writeToFile(grepLines);
     } catch (Exception e) {
       e.printStackTrace();
     }
@@ -39,7 +40,7 @@ public class JavaGrepImp implements JavaGrep {
     File rootFile = new File(rootDir);
 
     // Recursively add the files to the list
-    Arrays.stream(rootFile.listFiles()).forEach(file -> {
+    Arrays.stream(Objects.requireNonNull(rootFile.listFiles())).forEach(file -> {
       if (file.isDirectory()) {
         fileList.addAll(listFiles(file.getAbsolutePath()));
       } else {
@@ -67,18 +68,18 @@ public class JavaGrepImp implements JavaGrep {
 
   @Override
   public boolean containsPattern(String line) {
-    return Pattern.matches(regex, line);
+    return Pattern.matches(getRegex(), line);
   }
 
   @Override
   public void writeToFile(List<String> lines) {
     try {
-      File newFile = new File(outFile);
+      File newFile = new File(getOutFile());
       if (!newFile.createNewFile()) {
-        logger.debug("[JavaGrepImp] Did not create new file {}", outFile);
+        logger.debug("[JavaGrepImp] Did not create new file {}", getOutFile());
       }
 
-      FileWriter fw = new FileWriter(outFile);
+      FileWriter fw = new FileWriter(getOutFile());
       for (String line : lines) {
         fw.write(line);
       }
@@ -114,7 +115,7 @@ public class JavaGrepImp implements JavaGrep {
     this.outFile = outFile;
   }
 
-  public static void main(String[] args) {
+  static void main(String[] args) {
     if (args.length != 3) {
       throw new IllegalArgumentException("USAGE: Invalid number of arguments. Expected 3 but got " + args.length);
     }
