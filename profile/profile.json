@@ -22,9 +22,14 @@
   ],
   "jarvis_projects": [
     {
-      "description": "Coordinated Docker setup and Bash scripting tasks across the team. Tracked progress using a simple Kanban board to ensure on-time delivery. Documented key security risks of the current architecture for future development.",
+      "description": "Deployed an automated grep app using Docker and stored the data in a PostgreSQL database. Generated Bash scripts to grep physical load across a closed cluster running Rocky Linux OS and automated with a CronJob.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
+    },
+    {
+      "description": "Programmed a grep log reader to handle large log files in Java using basic OOP concepts, such as polymorphism using interfaces and overriding. Utilized the JUnit library for unit testing and slf4j for logging and debugging.",
+      "git_url": "/core_java",
+      "name": "Core Java Apps"
     },
     {
       "description": "Analyzed a sanitized dataset from the London Gift Shop with PostgreSQL and Jupyter, and presented insights on their types of customers, as well as their geographic outreach to increase revenue growth.",
@@ -58,51 +63,45 @@
       "company": "Jarvis",
       "description": "Working with key executives and stakeholders to manage sprints by keeping tasks organized in Notion. Writing validation scripts in Python to support the team's workflow. Providing updates and resolving daily blockers to maintain steady progress.",
       "duration": "2026-present",
-      "title": "Project Manager"
+      "title": "Business Systems Analyst"
     },
     {
       "company": "University of Toronto",
-      "description": "Managing a Trello board and broke down the stakeholders' goals into its key components to achieve MVP. Communicating with the primary stakeholder on a monthly basis to align project milestones with stakeholder goals.",
-      "duration": "2025-present",
+      "description": "Collaborated with a VR simulation for a robotics lab to automate chemical experiments in a wet lab with robots performing the experiment using IssacLab and Python to allow scientists to walk through a virtual lab and control a robot.",
+      "duration": "2025-2026",
       "title": "Research Assistant"
     },
     {
       "company": "Alida Inc.",
-      "description": "Organized Agile sprint retros with Jira to identify key blockers, and tracked work progress on a burn-down chart. Implemented a full-stack website with React, Typescript, Golang and PSQL.",
+      "description": "Collaborated with a professional team to improve upon a full-stack website with React, Typescript, Golang and PSQL. Improved upon their automated form validation for better error checking.",
       "duration": "2022-2023",
       "title": "Junior Software Engineer"
     }
   ],
   "skills": {
     "competent": [
-      "Risk Assessment",
       "C++",
-      "RDBMS/SQL",
-      "AWS Cloud Computing",
+      "Git",
+      "Cloud Computing (AWS, GCP)",
       "Docker",
-      "OpenXR"
+      "PostgreSQL",
+      "Agile Methodologies"
     ],
     "familiar": [
-      "Notion",
-      "Jira",
+      "Project Management Tools (Notion, Jira)",
       "GraphQL",
       "Golang",
       "Blender",
-      "IsaacSim/IsaacLab",
-      "Waterfall"
+      "IsaacSim/IsaacLab"
     ],
     "proficient": [
-      "Agile Methodology",
-      "Trello",
-      "Stakeholder Management",
-      "Project/Task Scheduling",
-      "Git",
       "C#",
       "Java",
       "Python",
       "Linux/Bash",
-      "Typescript"
+      "RDBMS/SQL",
+      "Unity"
     ]
   },
-  "summary": "I am a Project Manager at Jarvis, focused on delivering clear insights and actionable solutions to clients. I drive progress using Agile methodologies, and I am most proud of my organizational skills and attentiveness to my team's needs and abilities. I have proven experience working as a programming lead in research projects and RA positions investigating new technologies, with a CS background at the University of Toronto. With 3+ years of professional development, I frequently manage and organize projects, while keeping stakeholders and product goals consistent and achievable. I am always learning and proactively seek to support my teams, and use my experiences as a developer to set realistic goals."
+  "summary": "I am a Computer Science graduate from the University of Toronto with 3+ years of experience in application and systems development in various tech stacks, such as React/Typescript, Java, and Python. At Jarvis, I have been responsible for developing backend systems and databases, running data analytics, and business solutions; the goal being to reduce work hours through automation. I have also been part of a research team exploring ways to integrate robots into the laboratory and for scientists to manage multiple labs through virtual reality remotely. I enjoy the process of optimizing work, either through automation or using project management tools, and always seek to make repetitive work a little easier."
 }
