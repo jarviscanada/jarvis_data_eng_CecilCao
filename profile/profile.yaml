@@ -5,39 +5,33 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_CecilCao
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: "I am a Project Manager at Jarvis, focused on delivering clear insights and actionable solutions to clients. I drive progress using Agile methodologies, and I am most proud of my organizational skills and attentiveness to my team's needs and abilities. I have proven experience working as a programming lead in research projects and RA positions investigating new technologies, with a CS background at the University of Toronto. With 3+ years of professional development, I frequently manage and organize projects, while keeping stakeholders and product goals consistent and achievable. I am always learning and proactively seek to support my teams, and use my experiences as a developer to set realistic goals."
+summary: "I am a Computer Science graduate from the University of Toronto with 3+ years of experience in application and systems development in various tech stacks, such as React/Typescript, Java, and Python. At Jarvis, I have been responsible for developing backend systems and databases, running data analytics, and business solutions; the goal being to reduce work hours through automation. I have also been part of a research team exploring ways to integrate robots into the laboratory and for scientists to manage multiple labs through virtual reality remotely. I enjoy the process of optimizing work, either through automation or using project management tools, and always seek to make repetitive work a little easier."
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
   # At least 5 skills
   proficient:
-    - Agile Methodology
-    - Trello
-    - Stakeholder Management
-    - Project/Task Scheduling
-    - Git
     - C#
     - Java
     - Python
     - Linux/Bash
-    - Typescript
+    - RDBMS/SQL
+    - Unity
   # At least 5 skills
   competent:
-    - Risk Assessment
     - C++
-    - RDBMS/SQL
-    - AWS Cloud Computing
+    - Git
+    - Cloud Computing (AWS, GCP)
     - Docker
-    - OpenXR
+    - PostgreSQL
+    - Agile Methodologies
   # At least 5 skills
   familiar:
-    - Notion
-    - Jira
+    - Project Management Tools (Notion, Jira)
     - GraphQL
     - Golang
     - Blender
     - IsaacSim/IsaacLab
-    - Waterfall
 
 # List of Jarvis projects
 jarvis_projects:
@@ -45,13 +39,13 @@ jarvis_projects:
     git_url: "/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Coordinated Docker setup and Bash scripting tasks across the team. Tracked progress using a simple Kanban board to ensure on-time delivery. Documented key security risks of the current architecture for future development."
+    description: "Deployed an automated grep app using Docker and stored the data in a PostgreSQL database. Generated Bash scripts to grep physical load across a closed cluster running Rocky Linux OS and automated with a CronJob."
 #  - name: "SQL Database"
 #    git_url: "/sql"
 #    description: "Investigated a resort dataset containing information about the resort's facilities, reservations, and members. Compiled the data into a relational PSQL database running on Docker and converted high-level questions into SQL queries."
-#  - name: "Core Java Apps"
-#    git_url: "/core_java"
-#    description: ""
+  - name: "Core Java Apps"
+    git_url: "/core_java"
+    description: "Programmed a grep log reader to handle large log files in Java using basic OOP concepts, such as polymorphism using interfaces and overriding. Utilized the JUnit library for unit testing and slf4j for logging and debugging."
 #  - name: "Springboot App"
 #    git_url: "/springboot"
 #    description: ""
@@ -90,19 +84,19 @@ highlighted_projects:
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
 professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
-  - title: "Project Manager"
+  - title: "Business Systems Analyst"
     company: "Jarvis"
     duration: "2026-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: "Working with key executives and stakeholders to manage sprints by keeping tasks organized in Notion. Writing validation scripts in Python to support the team's workflow. Providing updates and resolving daily blockers to maintain steady progress."
   - title: "Research Assistant"
     company: "University of Toronto"
-    duration: "2025-present"
-    description: "Managing a Trello board and broke down the stakeholders' goals into its key components to achieve MVP. Communicating with the primary stakeholder on a monthly basis to align project milestones with stakeholder goals."
+    duration: "2025-2026"
+    description: "Collaborated with a VR simulation for a robotics lab to automate chemical experiments in a wet lab with robots performing the experiment using IssacLab and Python to allow scientists to walk through a virtual lab and control a robot."
   - title: "Junior Software Engineer"
     company: "Alida Inc."
     duration: "2022-2023"
-    description: "Organized Agile sprint retros with Jira to identify key blockers, and tracked work progress on a burn-down chart. Implemented a full-stack website with React, Typescript, Golang and PSQL."
+    description: "Collaborated with a professional team to improve upon a full-stack website with React, Typescript, Golang and PSQL. Improved upon their automated form validation for better error checking."
 #List of education
 education: 
   - school_name: "University of Toronto"
